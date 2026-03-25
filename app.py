@@ -103,7 +103,34 @@ st.markdown("""
 # ---------- Header ----------
 st.markdown('<div class="main-title">🔍 AI Research Agent</div>', unsafe_allow_html=True)
 st.markdown('<div class="subtitle">Powered by GPT-3.5 + DuckDuckGo · Thinks before it answers</div>', unsafe_allow_html=True)
+# Stats row
+col1, col2, col3 = st.columns(3)
+with col1:
+    st.markdown("""
+    <div style='text-align:center; background:#1e1e2e; border-radius:10px; padding:1rem; border: 1px solid #7b2ff7'>
+        <div style='font-size:1.8rem'>🧠</div>
+        <div style='color:#fff; font-weight:700'>ReAct Pattern</div>
+        <div style='color:#888; font-size:0.8rem'>Reason → Act → Observe</div>
+    </div>
+    """, unsafe_allow_html=True)
+with col2:
+    st.markdown("""
+    <div style='text-align:center; background:#1e1e2e; border-radius:10px; padding:1rem; border: 1px solid #00d4ff'>
+        <div style='font-size:1.8rem'>🔍</div>
+        <div style='color:#fff; font-weight:700'>Live Web Search</div>
+        <div style='color:#888; font-size:0.8rem'>Powered by DuckDuckGo</div>
+    </div>
+    """, unsafe_allow_html=True)
+with col3:
+    st.markdown("""
+    <div style='text-align:center; background:#1e1e2e; border-radius:10px; padding:1rem; border: 1px solid #00c853'>
+        <div style='font-size:1.8rem'>⚡</div>
+        <div style='color:#fff; font-weight:700'>GPT-3.5 Turbo</div>
+        <div style='color:#888; font-size:0.8rem'>OpenAI reasoning engine</div>
+    </div>
+    """, unsafe_allow_html=True)
 
+st.markdown("<br>", unsafe_allow_html=True)
 # ---------- Agent Setup ----------
 def ddgs_search(query):
     with DDGS() as ddgs:

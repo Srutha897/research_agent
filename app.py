@@ -43,14 +43,14 @@ st.markdown("""
     
     /* Thinking box */
     .thinking-box {
-        background: #1e1e2e;
-        border-left: 3px solid #7b2ff7;
-        border-radius: 8px;
-        padding: 1rem 1.2rem;
-        margin: 0.4rem 0;
-        color: #ccc;
-        font-size: 0.9rem;
-    }
+    background: #1e1e2e;
+    border-left: 3px solid #7b2ff7;
+    border-radius: 8px;
+    padding: 1rem 1.2rem;
+    margin: 0.4rem 0;
+    color: #ffffff !important;
+    font-size: 0.9rem;
+}
     
     /* Final answer box */
     .answer-box {

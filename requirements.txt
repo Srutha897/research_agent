@@ -2,8 +2,7 @@ streamlit
 langchain==0.1.20
 langchain-community==0.0.38
 langchain-openai==0.0.8
-langchain-core==0.1.23
-pydantic==1.10.13
+langchain-core==0.1.52
 ddgs
 python-dotenv
 openai

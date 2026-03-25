@@ -79,6 +79,10 @@ st.markdown("""
     border-radius: 8px !important;
     caret-color: white !important;
     }
+    /* Spinner text */
+    .stSpinner p {
+        color: #ffffff !important;
+    }
 
     .stTextInput > div > div > input::placeholder {
         color: #888888 !important;

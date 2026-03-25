@@ -50,8 +50,15 @@ st.markdown("""
     margin: 0.4rem 0;
     color: #ffffff !important;
     font-size: 0.9rem;
-}
+    }
+    .thinking-box b {
+        color: #ffffff !important;
+    }
     
+    .thinking-box * {
+        color: #ffffff !important;
+    }
+        
     /* Final answer box */
     .answer-box {
         background: linear-gradient(135deg, #1e2a1e, #1a2e1a);
